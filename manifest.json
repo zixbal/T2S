@@ -4,7 +4,7 @@
   "version": "0.0.2",
 
   "description": "Translate Traditional Chinese to Simplified Chinese",
-  "default_locale": "en",
+
   "icons": {
     "16" : "Images/16.png",
     "32" : "Images/32.png",
