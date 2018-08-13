@@ -22,11 +22,22 @@
   },
 
   "content_scripts": [
-
+    {
+      "matches"   : ["http://*/*", "https://*/*"],
+      "js"        : [],
+      "run_at"    : "document_start",
+      "all_frames": true
+    },
+    {
+      "matches"   : ["http://*/*", "https://*/*"],
+      "js"        : [],
+      "run_at"    : "document_start",
+      "all_frames": true
+    }
   ],
 
+  "options_page" : "options.html",
   "offline_enabled": true,
-
   "permissions": [
       "http://*/*",
       "https://*/*",
