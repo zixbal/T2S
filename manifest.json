@@ -1,0 +1,39 @@
+{
+  "manifest_version": 2,
+  "name" : "T2S",
+  "version": "0.0.2",
+
+  "description": "Translate Traditional Chinese to Simplified Chinese",
+  "default_locale": "en",
+  "icons": {
+    "16" : "Images/16.png",
+    "32" : "Images/32.png",
+    "48" : "Images/48.png",
+    "128": "Images/128.png"
+  },
+
+  "browser_action": {
+    "default_title": "T2S",
+    "default_icon" : "Images/32.png"
+  },
+
+  "background": {
+    "page": "background.html"
+  },
+
+  "content_scripts": [
+
+  ],
+
+  "offline_enabled": true,
+
+  "permissions": [
+      "http://*/*",
+      "https://*/*",
+      "tabs",
+      "contextMenus",
+      "clipboardRead",
+      "clipboardWrite",
+      "storage"
+  ]
+}
